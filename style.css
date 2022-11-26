@@ -4,7 +4,7 @@
     font-family: 'Silkscreen', cursive;
 }
 
-#container{
+#first_container{
     background-color: red;
     height: 100vh;
 }
@@ -53,6 +53,16 @@
 }
 #rs_container a:nth-child(5){
     color: #171515;
+}
+
+/*Second container*/
+#second_container{
+    background-color: blue;
+    height: 100vh;
+}
+
+#second_container h1{
+    text-align: center;
 }
 
 
