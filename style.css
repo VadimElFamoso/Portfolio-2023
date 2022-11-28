@@ -9,6 +9,23 @@
     height: 100vh;
 }
 
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
 #introduction_container{
     position: absolute;
     left: 50%;
@@ -16,6 +33,11 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+#introduction_container img{
+    width: 5%;
+    height : auto;
 }
 
 #rs_container{
@@ -63,6 +85,10 @@
 
 #second_container h1{
     text-align: center;
+}
+
+.projet{
+    
 }
 
 
