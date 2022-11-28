@@ -4,6 +4,7 @@
     font-family: 'Silkscreen', cursive;
 }
 
+/*Premier container */
 #first_container{
     background-color: red;
     height: 100vh;
@@ -24,6 +25,8 @@ nav ul li{
 nav ul li a{
     color: black;
     text-decoration: none;
+    background-color: green;
+    padding: inherit;
 }
 
 #introduction_container{
@@ -35,15 +38,40 @@ nav ul li a{
     text-align: center;
 }
 
+#introduction_container h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#introduction_container h2{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#introduction_container h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 #introduction_container img{
-    width: 5%;
+    width: 3%;
     height : auto;
+}
+
+#introduction_container button{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #4bc94b;
 }
 
 #rs_container{
     position: absolute;
     left: 50%;
-    top: 150%;
+    top: 130%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
@@ -80,16 +108,33 @@ nav ul li a{
 /*Second container*/
 #second_container{
     background-color: blue;
-    height: 100vh;
+    height: inherit;
 }
 
 #second_container h1{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#project_container{
+    display: flex;
+    flex-direction: column;
 }
 
 .projet{
-    
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    border-radius: 75px;
 }
+
+
 
 
 
