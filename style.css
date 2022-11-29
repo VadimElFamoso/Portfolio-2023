@@ -6,7 +6,8 @@
 
 /*Premier container */
 #first_container{
-    background-color: red;
+    background-image:  url('img/background.jpg');
+    backdrop-filter:  blur(10px);
     height: 100vh;
 }
 
@@ -23,9 +24,8 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
-    background-color: green;
     padding: inherit;
 }
 
@@ -36,6 +36,8 @@ nav ul li a{
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    color:  white;
+    font-size:  130%;
 }
 
 #introduction_container h1{
@@ -124,7 +126,6 @@ nav ul li a{
 
 .projet{
     background-color: #19323C;
-    margin-top: 20px;
     margin-bottom: 20px;
     width: 65%;
     text-align: center;
