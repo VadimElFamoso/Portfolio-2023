@@ -22,6 +22,7 @@ nav ul li{
     margin-top: 5px;
     padding: 20px;
 }
+  
 
 nav ul li a{
     color: white;
@@ -70,6 +71,10 @@ nav ul li a{
     background-color: #4bc94b;
 }
 
+#introduction_container button:hover{
+    cursor: pointer;
+}
+
 #rs_container{
     position: absolute;
     left: 50%;
@@ -82,8 +87,8 @@ nav ul li a{
 }
 
 #rs_container a i{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #rs_container a i:hover{
