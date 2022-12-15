@@ -7,7 +7,7 @@
 
 /*Premier container */
 #first_container{
-    background-image:  url('img/background.jpg');
+    background: url(img/background.jpg) fixed center/cover;
     height: 100vh;
 }
 
@@ -22,7 +22,10 @@ nav ul li{
     margin-top: 5px;
     padding: 20px;
 }
-  
+
+nav ul li a:hover{
+    color: red;
+}
 
 nav ul li a{
     color: white;
@@ -114,11 +117,12 @@ nav ul li a{
 
 /*Second container*/
 #second_container{
-    background-color: blue;
+    background: url(img/project_background.png) fixed center/cover;
     height: inherit;
 }
 
 #second_container h1{
+    color: white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -127,6 +131,7 @@ nav ul li a{
 #project_container{
     display: flex;
     flex-direction: column;
+
 }
 
 .projet{
@@ -142,10 +147,6 @@ nav ul li a{
 }
 
 .used_languages{
-    position:  relative;
-    left:  375px;
-    top: 20px;
-    font-size:  50px;
 }
 
 .used_languages img{
