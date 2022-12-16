@@ -23,14 +23,14 @@ nav ul li{
     padding: 20px;
 }
 
-nav ul li a:hover{
-    color: red;
-}
-
 nav ul li a{
     color: white;
     text-decoration: none;
     padding: inherit;
+}
+
+nav ul li a:hover{
+    color: red;
 }
 
 #introduction_container{
@@ -146,14 +146,25 @@ nav ul li a{
     color:  white;
 }
 
-.used_languages{
+.projet .used_languages{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.used_languages img{
-    margin: 0;
-    height: auto;
-    width: 100px;
+.projet .used_languages i{
+    margin-top: 25px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.projet .used_languages i:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/*Html*/
+
 
 
 
