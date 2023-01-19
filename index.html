@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/navigation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">    
@@ -151,6 +152,30 @@
             </div>
 
     </div>
+</div>
+
+<!-- Third container -->
+<div id="third_container">
+    <h1 class="container_title">Me contacter</h1>
+    <div id="form">
+        <h1>Formulaire de contact</h1>
+        <form action="">
+            <label for="e-mail">Votre e-mail :</label><input type="email" name="e-mail" placeholder="monsuper@mail.fr">
+            <br><label for="name">Votre nom :</label><input type="text" name="name" placeholder="Jean-Michel Dupont">
+            <br><label for="subject">Sujet de votre message :</label>
+            <select name="subject" id="subject_selection">
+                <option value="1">-- Sélectionnez un sujet : --</option>
+                <option value="2">Professionnel</option>
+                <option value="3">Bug</option>
+                <option value="4">Suggestion</option>
+                <option value="5">Autre</option>
+            </select>
+            <br><label for="message">Votre message :</label>
+            <textarea name="message" id="" cols="15" rows="15"></textarea>
+            <input type="submit" name="Envoyer">
+        </form>
+    </div>
+
 </div>
    
 </body>

@@ -10,42 +10,10 @@
     height: 100vh;
 }
 
-@keyframes slideDown{
-    0%{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
-nav ul li{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 5px;
-    padding: 20px;
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    padding: inherit;
-}
-
-nav ul li a:hover{
-    color: #eb8436;
-    transition: 1.0s;
-}
-
 .container_title{
-    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 45px;
 }
 
 #introduction_container{
@@ -57,7 +25,6 @@ nav ul li a:hover{
     text-align: center;
     color:  white;
     font-size:  130%;
-    animation: slideDown 3s;
 }
 
 #introduction_container h1{
@@ -175,12 +142,51 @@ nav ul li a:hover{
     margin-right: 10px;
 }
 
-.projet .used_languages i:hover{
-    transform: translateY(-5px);
-    transition: ease-in-out 0.5s;
+
+/*Third container*/
+#third_container{
+    background-color: red;
+    height: 100vh;
 }
 
-/*Html*/
+#form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    width: 40%;
+    padding: 12px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+form input{
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+form input[type="submit"]{
+    margin-top: 10px;
+}
+
+form label{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+form textarea{
+    width: 80%;
+}
+
+
+
+   
+
+
 
 
 
