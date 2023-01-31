@@ -1,0 +1,34 @@
+#loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-family: 'Silkscreen', cursive;
+}
+
+#loader img{
+    margin-top: 15%;
+    height: auto;
+    width: 10%;
+}
+
+@keyframes animation{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+
+
