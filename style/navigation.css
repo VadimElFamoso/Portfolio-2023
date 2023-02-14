@@ -1,7 +1,7 @@
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 nav ul li{
     margin-left: 20px;

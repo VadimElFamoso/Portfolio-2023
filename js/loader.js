@@ -1,5 +1,5 @@
-let news_container = document.getElementById("today_news");
-
+const news_container = document.getElementById("today_news");
+const loader = document.getElementById("loader")
 const news = [
     "J'ai bientôt 20 ans",
     "J'ai habité dans plusieurs régions dont la Suisse (Genève) !",
@@ -10,3 +10,5 @@ const news = [
 
 let i = Math.floor(Math.random() * news.length);;
 news_container.innerHTML = news[i];
+
+//Animation : 
